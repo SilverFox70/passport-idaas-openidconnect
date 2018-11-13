@@ -1,7 +1,7 @@
 passport-idaas-openidconnect
 ---
 
-This module provides the passport strategy for authenticating specifically with the Bluemix Single Sign-On service.
+This module provides the passport strategy for authenticating specifically with the Bluemix Single Sign-On service. This version solves path realted problems encountered when deploying to Cloud Foundry.
 
 Install
 ---
@@ -156,7 +156,7 @@ CACertPathList: [‘/example.crt’, ‘/example2.cer’]},
 ...
 ```
 
-Include your certificates in the application directory hierarchy so that they can be read when the strategy is created. When listing your certificates, specify the location relative to the application directory.  For example, if your certificate example1.crt is in the application directory, list it as ‘/example1.crt’. If it is located within a subdirectory of the application directory, such as  ssl, list it as ‘/ssl/example1.crt’
+Include your certificates in the application directory hierarchy so that they can be read when the strategy is created. When listing your certificates, specify the location relative to the application directory.  For example, if your certificate example1.crt is in the application directory, list it as `${__dirname}/example1.crt`. If it is located within a subdirectory of the application directory, such as  ssl, list it as `${__dirname}/ssl/example1.crt`
 
 
 ### Callback URL
