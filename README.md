@@ -1,7 +1,7 @@
 passport-idaas-openidconnect
 ---
 
-This module provides the passport strategy for authenticating specifically with the Bluemix Single Sign-On service. This version solves path realted problems encountered when deploying to Cloud Foundry.
+This module provides the passport strategy for authenticating specifically with the Bluemix Single Sign-On service. This version solves path related problems encountered when deploying to Cloud Foundry.
 
 Install
 ---
