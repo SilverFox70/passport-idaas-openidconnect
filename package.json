@@ -1,0 +1,54 @@
+{
+  "_args": [
+    [
+      "passport-idaas-openidconnect@2.0.1",
+      "/Users/william.brinkert/Desktop/Code/IBM_Cloud/ibmcloudtool"
+    ]
+  ],
+  "_from": "passport-idaas-openidconnect@2.0.1",
+  "_id": "passport-idaas-openidconnect@2.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-ipsImbx6BqROjFvaLwaPhKCvIlU=",
+  "_location": "/passport-idaas-openidconnect",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "passport-idaas-openidconnect@2.0.1",
+    "name": "passport-idaas-openidconnect",
+    "escapedName": "passport-idaas-openidconnect",
+    "rawSpec": "2.0.1",
+    "saveSpec": null,
+    "fetchSpec": "2.0.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/passport-idaas-openidconnect/-/passport-idaas-openidconnect-2.0.1.tgz",
+  "_spec": "2.0.1",
+  "_where": "/Users/william.brinkert/Desktop/Code/IBM_Cloud/ibmcloudtool",
+  "author": {
+    "name": "Jared Hanson, Ciaran Jessup",
+    "email": "jaredhanson@gmail.com, ciaranj@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "contributors": [
+    {
+      "name": "IBM"
+    }
+  ],
+  "dependencies": {
+    "base64url": "0.0.6",
+    "jws": "3.1.0",
+    "oauth": "0.9.13",
+    "passport-strategy": "1.0.0"
+  },
+  "description": "Passport Authentication Strategy for IBM Bluemix Single Sign-On (SSO) service",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "license": "MIT",
+  "main": "./lib",
+  "name": "passport-idaas-openidconnect",
+  "version": "2.0.1"
+}
